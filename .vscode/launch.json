@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Publish: Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "PF-Sandbox-cob15-12-2023",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            //"startupObjectId": 9016720,
+            //"startupObjectType": "Page",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "tenant": "647ef5e3-e009-408f-a103-2721caf3dcfc"
+        }
+    ]
+}
