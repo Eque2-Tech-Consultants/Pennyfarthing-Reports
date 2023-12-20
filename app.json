@@ -9,49 +9,37 @@
   "url": "https://www.eque2.co.uk/remote-support/",
 
   "brief": "",
-  "version": "22.0.0.0",
-  "runtime": "11.0",
+  "version": "23.0.0.0",
+  "runtime": "12.0",
   "target": "Cloud",
-  "platform": "22.0.0.0",
-  "application": "22.0.0.0",
+  "platform": "23.0.0.0",
+  "application": "23.0.0.0",
   "logo": "media/applogo.png",
   "dependencies": [
     {
       "id": "fb0a1361-7b4b-4cbd-bf02-168331b2d9a3",
       "name": "EVision Library",
-      "version": "22.0.0.0",
+      "version": "23.0.0.0",
       "publisher": "Eque2 Ltd."
     },
     {
       "id": "862322a8-9ea5-44c7-81a3-84c3ff39e2af",
       "name": "EVision Subcontractors",
-      "version": "22.0.0.0",
+      "version": "23.0.0.0",
       "publisher": "Eque2 Ltd."
     },
     {
       "id": "15dd4e83-0513-4ef3-a075-7fb95462093c",
       "name": "EVision Contract Sales",
-      "version": "22.0.0.0",
+      "version": "23.0.0.0",
       "publisher": "Eque2 Ltd."
     },
     {
       "id": "d67a4850-6975-434f-b7c6-73d90d803d5f",
       "name": "EVision Plant",
-      "version": "22.0.0.0",
+      "version": "23.0.0.0",
       "publisher": "Eque2 Ltd."
-    },
-    {
-      "id": "926ebd8e-22b4-46df-84e3-809fdb47827c",
-      "name": "EVision Corporate Database",
-      "publisher": "Eque2 Ltd.",
-      "version": "22.0.0.0"
-    },
-    {
-      "id": "6da8dd2f-e698-461f-9147-8e404244dd85",
-      "publisher": "Continia Software",
-      "name": "Continia Document Capture",
-      "version": "11.1.0.0"
-    }
+    } 
   ],
   "idRanges": [
     {

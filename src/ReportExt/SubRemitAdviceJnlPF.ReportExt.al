@@ -8,7 +8,7 @@ reportextension 50107 "SubRemitAdviceJnlPF" extends "Sub.Remit. Advice 3 - Jnl E
         layout(SubRemitAdviceJnl)
         {
             Type = RDLC;
-            LayoutFile = 'src/ReportExt/SubRemitAdvice-Jnl.rdlc';
+            LayoutFile = 'src/ReportExt/SubRemitAdviceJnl.rdlc';
             Summary = 'Pennyfarthing - SubRemitAdvice-Jnl';
             Caption = 'Pennyfarthing - SubRemitAdvice-Jnl';
 
