@@ -6031,7 +6031,7 @@ Fields!StatementCaption.Value</Value>
             </Image>
             <Image Name="CompanyInfo2Picture1">
               <Source>Database</Source>
-              <Value>=Convert.ToBase64String(Fields!CompanyInfo2Picture.Value)</Value>
+              <Value>=Fields!CompanyLogoPF.Value</Value>
               <MIMEType>image/bmp</MIMEType>
               <Sizing>Fit</Sizing>
               <Left>14.72722cm</Left>

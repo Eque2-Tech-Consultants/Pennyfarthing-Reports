@@ -9,6 +9,13 @@ reportextension 50108 "Purchase Order PF" extends "Order 3 EQ2"
             column(JobNamePF; JobInformationPF.Description)
             { }
         }
+        modify("Purchase Header")
+        {
+            trigger OnAfterAfterGetRecord()
+            begin
+                if JobInformationPF.Get("Job No. EQ2") then;
+            end;
+        }
     }
     rendering
     {

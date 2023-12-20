@@ -22,6 +22,7 @@ reportextension 50101 CSCustomerStatementPF extends "CS Customer Statement EQ2"
     trigger OnPreReport()
     begin
         CompanyInformationPF.get();
+        CompanyInformationPF.CalcFields(Picture);
     end;
 
     var
