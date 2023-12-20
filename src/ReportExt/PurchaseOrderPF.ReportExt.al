@@ -28,11 +28,6 @@ reportextension 50108 "Purchase Order PF" extends "Order 3 EQ2"
 
         }
     }
-    trigger OnPreReport()
-    begin
-        JobInformationPF.Get()
-    end;
-
     var
         JobInformationPF: Record Job;
 }
